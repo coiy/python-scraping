@@ -1,6 +1,8 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-
+"""
+에버노트에 정리한 'In linguistics, an n-gram'라는 제목으로 작성한 문서를 참고하자.
+"""
 def getNgrams(input, n):
   input = input.split(' ')
   output = []
